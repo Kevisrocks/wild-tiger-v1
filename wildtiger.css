@@ -1,0 +1,135 @@
+body{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ccc;
+    
+}
+
+.header-top{
+    height: 50px;
+    background: black;
+}
+
+.logotipo{
+    float:left;
+    height: 40px;
+    margin-top: 4px;
+     
+}
+
+ul{
+    text-align: right;
+}
+
+.header-top nav li{
+    display: inline-block;
+    list-style: none;
+    margin: 15px;
+    
+}
+
+.header-top nav ul{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.header-top nav a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 3px;
+    
+}
+
+.header-top nav a:hover{
+    transition: color .3s linear;
+    color: red;
+
+}
+
+.banner{
+    width: 100%;
+}
+
+.container{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.titulo1{
+    text-transform: uppercase;
+    font-size: 25px;
+    text-align: center;
+    letter-spacing: 1px;
+    color: rgb(17, 17, 17);
+    padding: 0 12% 0 12%;
+}
+
+.bloco1{
+    height: 25px;
+    background: #ccc;
+}
+
+.resenha{
+    margin: 5%;
+    padding: 15px;
+    background: #ccc;
+    border: black solid 2px;
+    
+}
+
+.fabikel{
+    width: 80%;
+    margin-left: 10%;
+}
+
+section h3, section p{
+    text-align: center;
+}
+
+
+.imagemgale{
+    float: left;
+    width: 50%;
+}
+
+.imgtigre{
+    height: auto;
+    width: 175px;
+    background-size: cover;
+    background-position: right; 
+    float: right;   
+}
+
+footer{
+    background-color: black;
+    clear: both;
+    margin-top: 25px;
+    
+}
+
+footer p{
+    color: white;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 50px;
+    margin-left: 180px;
+
+}
+
+.tigre{
+    clear:both
+    }
+
+.cordefundo{
+    background-color: white;
+    
+}
+
+.mainclear{
+    clear: both;
+}
+
